@@ -57,11 +57,12 @@ A API coleta os seguintes dados de uma cidade específica:
 
 **Dados de localização**
 
-|   **Campo**   |    **Tipo**     |    **Descrição**     |
-|:-------------:|:---------------:|:--------------------:|
-|     name      |     String      |   Nome da cidade     |
-|     state     |     String      |   Estado da cidade   |
-|     country   |     String      |   País da cidade     |
+|   **Campo**   |    **Tipo**     |    **Descrição**                            |
+|:-------------:|:---------------:|:-------------------------------------------:|
+|     name      |     String      |   Nome da cidade                            |
+|     state     |     String      |   Estado da cidade                          |
+|     country   |     String      |   País da cidade                            |
+|     data      |     Object      |   Dados de tempo no momento para a cidade   |
 
 **Dados do tempo**
 
