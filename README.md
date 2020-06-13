@@ -55,7 +55,7 @@ O nome da cidade pode ser digitado com ou sem acentos, na forma maiúscula ou mi
 
 O projeto possui as características comuns de um CRUD, ou seja:
 
-Dados de localização
+**Dados de localização**
 
 |   **Campo**   |    **Tipo**     |    **Descrição**     |
 |:-------------:|:---------------:|:--------------------:|
@@ -63,7 +63,7 @@ Dados de localização
 |     state     |     String      |   Estado da cidade   |
 |     country   |     String      |   País da cidade     |
 
-Dados do tempo
+**Dados do tempo**
 
 |   **Campo**    |    **Tipo**     |            **Descrição**              |
 |:--------------:|:---------------:|:-------------------------------------:|
