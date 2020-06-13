@@ -66,7 +66,7 @@ Dados de localização
 Dados do tempo
 
 |   **Campo**    |    **Tipo**     |            **Descrição**              |
-|:--------------:|:-------------  :|:-------------------------------------:|
+|:--------------:|:---------------:|:-------------------------------------:|
 | temperature    |      Number     |   Temperatura em graus celsius (°C)   |
 | wind_direction |      String     |           Direção do vento            |
 | wind_velocity  |      Number     |     Intensidade do vento em km/h      |
