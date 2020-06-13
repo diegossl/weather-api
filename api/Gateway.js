@@ -1,17 +1,20 @@
 'use strict'
 
+const TokenManagementService = require('./services/TokenManagementService')
 const LocationService = require('./services/LocationService')
 const WeatherService = require('./services/WeatherService')
+
 module.exports = {
 
   async index (request, response) {
     try {
-      const cityId = await LocationService.getCity('Feira de Santana')
-      const cityWeather = await WeatherService.getCityWeather(cityId)
-      const result = await Axios.all([cityId, cityWeather])
-      console.log(result)
+      const cityName = request.params.cityName
+      const cityId = await LocationService.getCity(cityName)
+      const recoveredId = await TokenManagementService.setId(cityId)
+      const cityWeather = await WeatherService.getCityWeather(recoveredId)
+      return response.status(200).send({ cityWeather: cityWeather })
     } catch (error) {
-      throw error
+      return response.status(500).send({ message: 'Não foi possível encontrar a cidade' })
     }
 
   }
