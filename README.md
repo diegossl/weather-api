@@ -19,7 +19,7 @@ Agora o sistema está pronto para ser utilizado através da rota local:
 
 [http://localhost:3000/search/nome_da_cidade](http://localhost:3000/search/)
 
-Basta enviar os dados para esta rota e o pagamento será processado.
+Basta enviar o nome da cidade para esta rota e os dados atuais sobre o tempo na cidade será retornado.
 
 ### Exemplo de entrada de dados:
 
