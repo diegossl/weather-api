@@ -21,7 +21,7 @@ Agora o sistema está pronto para ser utilizado através da rota local:
 
 Basta enviar os dados para esta rota e o pagamento será processado.
 
-### Exemmplo de entrada de dados:
+### Exemplo de entrada de dados:
 
 `
 São Paulo
@@ -29,7 +29,7 @@ São Paulo
 
 O nome da cidade pode ser digitado com ou sem acentos, na forma maiúscula ou minúscula, junto ou separado. Mas o nome precisa estar completo.
 
-### Exemmplo de saída de dados:
+### Exemplo de saída de dados:
 
 ```javascript
 {
