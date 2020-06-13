@@ -53,7 +53,7 @@ O nome da cidade pode ser digitado com ou sem acentos, na forma maiúscula ou mi
 
 ### Features
 
-O projeto possui as características comuns de um CRUD, ou seja:
+A API coleta os seguintes dados de uma cidade específica:
 
 **Dados de localização**
 
