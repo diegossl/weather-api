@@ -1,6 +1,6 @@
 # Previsão do Tempo
 
-API que coleta e processa informações meteorológicas sobre temperatura, clima, chuva, umidade, vento e previsão do tempo de qualquer cidade do Brasil. As informações são coletadas da API da Climatempo, que é uma empresa brasileira que oferece serviços de Meteorologia .
+API que coleta e processa informações meteorológicas sobre temperatura, pressão, umidade, vento, sensação térmica e condição atmosférica de qualquer cidade do Brasil. As informações são coletadas da API da Climatempo, que é uma empresa brasileira que oferece serviços de Meteorologia .
 
 ## Setup
 
