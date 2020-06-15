@@ -79,4 +79,4 @@ A API coleta os seguintes dados de uma cidade específica:
 
 ### Licença
 
-Não se aplica.
+MIT
