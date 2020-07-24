@@ -1,4 +1,4 @@
-# Previsão do Tempo
+# Weather forecast
 
 API that collects and processes meteorological information about temperature, pressure, humidity, wind, temperature and atmospheric conditions of any city in Brazil. As information is collected by the Climatempo API, which is a Brazilian company that offers Meteorology services.
 
