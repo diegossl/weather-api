@@ -1,35 +1,36 @@
 # Previsão do Tempo
 
-API que coleta e processa informações meteorológicas sobre temperatura, pressão, umidade, vento, sensação térmica e condição atmosférica de qualquer cidade do Brasil. As informações são coletadas da API da Climatempo, que é uma empresa brasileira que oferece serviços de Meteorologia .
+API that collects and processes meteorological information about temperature, pressure, humidity, wind, temperature and atmospheric conditions of any city in Brazil. As information is collected by the Climatempo API, which is a Brazilian company that offers Meteorology services.
 
 ## Setup
 
-Para executar o projeto, será necessário instalar as dependências digitando o seguinte comando no terminal:
+To execute the project, it will be necessary to install as dependencies by typing the following command in the terminal:
 
 ```bash
 npm install
 ```
 
-Finalmente, digite o seguinte comando no terminal para iniciar o servidor:
+Finally, type the following command in the terminal to start the server:
 
 ```bash
 npm start
 ```
-Agora o sistema está pronto para ser utilizado através da rota local:
 
-[http://localhost:3000/search/nome_da_cidade](http://localhost:3000/search/)
+The system is now ready to be used using the route:
 
-Basta enviar o nome da cidade para esta rota e os dados atuais sobre o tempo na cidade será retornado.
+[http://localhost:3000/search/cityName](http://localhost:3000/search/)
 
-### Exemplo de entrada de dados:
+Just send the city name for this route and the current weather data in the city will be returned.
+
+### Example of data entry:
 
 `
 São Paulo
 `
 
-O nome da cidade pode ser digitado com ou sem acentos, na forma maiúscula ou minúscula, junto ou separado. Mas o nome precisa estar completo.
+The city name can be typed with or without quotes, in upper or lower case, together or separately. But the name needs to be complete.
 
-### Exemplo de saída de dados:
+### Example of output:
 
 ```javascript
 {
@@ -53,30 +54,30 @@ O nome da cidade pode ser digitado com ou sem acentos, na forma maiúscula ou mi
 
 ### Features
 
-A API coleta os seguintes dados de uma cidade específica:
+The API collects the following data for a specific city:
 
-**Dados de localização**
+**Location data**
 
-|   **Campo**   |    **Tipo**     |    **Descrição**                            |
+|   **Field**   |    **Type**     |    **Description**                          |
 |:-------------:|:---------------:|:-------------------------------------------:|
-|     name      |     String      |   Nome da cidade                            |
-|     state     |     String      |   Estado da cidade                          |
-|     country   |     String      |   País da cidade                            |
-|     data      |     Object      |   Dados de tempo no momento para a cidade   |
+|     name      |     String      |   Name of the city                          |
+|     state     |     String      |   State                                     |
+|     country   |     String      |   Country                                   |
+|     data      |     Object      |   Current weather data for the city         |
 
-**Dados do tempo**
+**Weather data**
 
-|   **Campo**    |    **Tipo**     |            **Descrição**              |
-|:--------------:|:---------------:|:-------------------------------------:|
-| temperature    |      Number     |   Temperatura em graus celsius (°C)   |
-| wind_direction |      String     |           Direção do vento            |
-| wind_velocity  |      Number     |     Intensidade do vento em km/h      |
-|   humidity	   |      Number     |      Umidade relativa do ar (%)       |
-|   condition    |      String     |              Condição                 |
-|   pressure     |      Number     |            Pressão (hPa)              |
-|   sensation    |      String     |     Sensação em graus celsius (°C)    |
-|     date       |      Date       |                Data                   |
+|   **Field**    |    **Type**     |            **Description**                    |
+|:--------------:|:---------------:|:---------------------------------------------:|
+| temperature    |      Number     |      Temperature in degrees celsius (°C)      |
+| wind_direction |      String     |                Wind direction                 |
+| wind_velocity  |      Number     |              Wind intensit (km/h)             |
+|   humidity	   |      Number     |              Relative humidity (%)            |
+|   condition    |      String     |                  Condition                    |
+|   pressure     |      Number     |                Pressure (hPa)                 |
+|   sensation    |      String     |   Thermal sensation in degrees celsius (°C)   |
+|     date       |      Date       |                    Date                       |
 
-### Licença
+### License
 
 MIT
