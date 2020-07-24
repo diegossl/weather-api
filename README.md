@@ -18,7 +18,7 @@ npm start
 
 The system is now ready to be used using the route:
 
-[http://localhost:3000/search/cityName](http://localhost:3000/search/)
+[http://localhost:3000/search/](http://localhost:3000/search/)
 
 Just send the city name for this route and the current weather data in the city will be returned.
 
