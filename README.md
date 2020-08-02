@@ -4,16 +4,24 @@ API that collects and processes meteorological information about temperature, pr
 
 ## Setup
 
-To execute the project, it will be necessary to install as dependencies by typing the following command in the terminal:
+To execute the project, it will be necessary to install the dependencies by typing the following command in the terminal:
 
 ```bash
-npm install
+yarn install
 ```
 
-Finally, type the following command in the terminal to start the server:
+Then create a file called **.env** and copy the contents of the file **.env.exemple** to it, which already exists at the root of the project. After that, fill in the fields with your credentials.
+
+Credentials can be obtained from the following website:
+
+[https://advisor.climatempo.com.br](https://advisor.climatempo.com.br)
+
+### Use
+
+To execute the project, type the following command in the terminal:
 
 ```bash
-npm start
+yarn start
 ```
 
 The system is now ready to be used using the route:
@@ -24,9 +32,10 @@ Just send the city name for this route and the current weather data in the city 
 
 ### Example of data entry:
 
-`
-São Paulo
-`
+```bash
+GET /search/sãopaulo
+
+```
 
 The city name can be typed with or without quotes, in upper or lower case, together or separately. But the name needs to be complete.
 
