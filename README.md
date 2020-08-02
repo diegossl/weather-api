@@ -33,7 +33,7 @@ Just send the city name for this route and the current weather data in the city 
 ### Example of data entry:
 
 ```bash
-GET /search/sãopaulo
+GET /search/são paulo
 
 ```
 
